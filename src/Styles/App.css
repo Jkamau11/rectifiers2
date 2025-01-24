@@ -76,10 +76,15 @@ img{
 .card-body{
     display: flex;
     flex-direction: column;
-    font-size: larger;
+    font-size: smaller;
     justify-content: center;
-    padding: 2px;
+    padding:1px 0px 1px 0px;
     /* border: solid red; */
+    .green{
+        color: green;
+        text-decoration: underline;
+        margin-right: 1px;
+    }
 }
 
 .footer-content{
