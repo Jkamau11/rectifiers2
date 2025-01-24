@@ -67,8 +67,8 @@ img{
 
 .image{
     /* border: solid blue; */
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl0rLoMFLWEVGdIiykS1awSTF7yA3rB5C_eQ&s");
     background-size: cover;
     border-radius: 5px;;
@@ -80,4 +80,11 @@ img{
     justify-content: center;
     padding: 2px;
     /* border: solid red; */
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
