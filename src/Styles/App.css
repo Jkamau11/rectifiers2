@@ -32,8 +32,6 @@ img{
     justify-content: center;
     column-gap: 6px;
     row-gap: 6px;
-
-
 }
 
 .card-details{
@@ -49,10 +47,10 @@ img{
     align-items: center;
     flex-direction: row;
     /* border: solid rgb(144, 0, 255) ; */
-    column-gap: 5px;
+    column-gap: 3px;
     box-shadow: 2px 2px 2px grey;
     border-radius: 5px;
-    font-size: smaller;
+    font-size: small;
 }
 
 .card-title{
@@ -67,8 +65,8 @@ img{
 
 .image{
     /* border: solid blue; */
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl0rLoMFLWEVGdIiykS1awSTF7yA3rB5C_eQ&s");
     background-size: cover;
     border-radius: 5px;;
@@ -76,13 +74,14 @@ img{
 .card-body{
     display: flex;
     flex-direction: column;
-    font-size: smaller;
+    font-size: x-small;
     justify-content: center;
     padding:1px 0px 1px 0px;
     /* border: solid red; */
     .green{
         color: green;
         text-decoration: underline;
+        font-weight: bolder;
         margin-right: 1px;
     }
 }

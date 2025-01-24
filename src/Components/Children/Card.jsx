@@ -24,7 +24,7 @@ export default function Card({partner}){
                     <p>Commissioned  :{partner.issued} </p>
                     <p>Integrated : {partner.completed} </p>
                     <p>Pending Integration : {pending} </p>
-                    <p className="green"><b>End-End Completion : {completion}%</b> </p>
+                    <p className="green">End-End Completion : {completion}% </p>
                 </div>
                 
             </div>
