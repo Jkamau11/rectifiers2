@@ -21,6 +21,9 @@ export default function Card({partner}){
                 </div>
 
                 <div className="card-body">
+                    {/* <div className="card-title">
+                        <h4>{partner.name}</h4>
+                    </div> */}
                     <p>Issued : {partner.issued} </p>
                     <p>Commissioned  :{partner.commissioned} </p>
                     <p>Integrated : {partner.completed} </p>
