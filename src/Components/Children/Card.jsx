@@ -4,6 +4,8 @@ export default function Card({partner}){
     const pending = partner.issued - partner.completed;
     const completion = (partner.completed) / partner.issued * 100;
 
+    console.log(partner);
+
     return (
         <>
         <div className="card-details">
@@ -14,9 +16,8 @@ export default function Card({partner}){
             <div className="card">
                 <div className="card-image">
                     <div className="image">
-                        
+                        <img src={partner.logo} alt={partner.name} />
                     </div>
-                    {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl0rLoMFLWEVGdIiykS1awSTF7yA3rB5C_eQ&s" alt="" /> */}
                 </div>
 
                 <div className="card-body">
