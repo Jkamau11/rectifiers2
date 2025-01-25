@@ -21,7 +21,7 @@ export default function Card({partner}){
 
                 <div className="card-body">
                     <p>Issued : {partner.issued} </p>
-                    <p>Commissioned  :{partner.issued} </p>
+                    <p>Commissioned  :{partner.commissioned} </p>
                     <p>Integrated : {partner.completed} </p>
                     <p>Pending Integration : {pending} </p>
                     <p className="green">End-End Completion : {completion}% </p>
