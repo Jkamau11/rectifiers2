@@ -3,17 +3,28 @@ import '../Styles/App.css'
 import Card from './Children/Card';
 import HeadLine from './Children/headLine';
 import Footer from './Children/Footer';
+
+import broadcom from '/images/broadband.png';
+import delta from '/images/delta.png';
+import egypro from '/images/egypro.png';
+import nextgen from '/images/nextgen.png';
+import pavicon from '/images/pavicon.png';
+import philfe from '/images/philafe.png';
+import powergroup from '/images/powergroup.png';
+import blockhain from '/images/blockhain.png';
+import camusat from '/images/camusat.png';
+
 export default function App(){
 
     const data = [
                 {
                     id: 1,
-                    name: "Broadcom",
+                    name: "Broad-com",
                     issued: 7,
                     commissioned: 0,
                     integrated: 0,
                     completed: 0,
-                    image: "",
+                    logo: broadcom
                 },
                 {
                     id: 2,
@@ -22,7 +33,7 @@ export default function App(){
                     commissioned: 0,
                     integrated: 0,
                     completed: 0,
-                    image: "",
+                    logo: delta
                 },
                 {
                     id: 3,
@@ -31,7 +42,7 @@ export default function App(){
                     commissioned: 0,
                     integrated: 0,
                     completed: 0,
-                    image: "",
+                    logo: egypro
                 },
                 {
                     id: 4,
@@ -40,7 +51,7 @@ export default function App(){
                     commissioned: 0,
                     integrated: 0,
                     completed: 0,
-                    image: "",
+                    logo: nextgen
                 },
                 {
                     id: 5,
@@ -49,7 +60,7 @@ export default function App(){
                     commissioned: 0,
                     integrated: 0,
                     completed: 0,
-                    image: "",
+                    logo: pavicon
                 },
                 {
                     id: 6,
@@ -58,16 +69,16 @@ export default function App(){
                     commissioned: 0,
                     integrated: 0,
                     completed: 0,
-                    image: "",
+                    logo: philfe
                 },
                 {
                     id: 7,
-                    name: "Powergroup",
+                    name: "Power group",
                     issued: 40,
                     commissioned: 0,
                     integrated: 0,
                     completed: 0,
-                    image: "",
+                    logo: powergroup
                 },
                 {
                     id: 8,
@@ -76,7 +87,7 @@ export default function App(){
                     commissioned: 0,
                     integrated: 0,
                     completed: 0,
-                    image: "",
+                    logo: blockhain
                 },
                 {
                     id: 9,
@@ -85,7 +96,7 @@ export default function App(){
                     commissioned: 0,
                     integrated: 0,
                     completed: 0,
-                    image: "",
+                    logo : camusat
                 },
                 {
                     id: 10,
@@ -94,7 +105,7 @@ export default function App(){
                     commissioned: 0,
                     integrated: 0,
                     completed: 0,
-                    image: "",
+                    image: ""
                 }
       ];
       
