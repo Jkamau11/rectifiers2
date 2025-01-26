@@ -13,6 +13,7 @@ import philfe from '/images/philafe.png';
 import powergroup from '/images/powergroup.png';
 import blockhain from '/images/blockhain.png';
 import camusat from '/images/camusat.png';
+import Summary from './Children/summary';
 
 export default function App(){
 
@@ -97,15 +98,6 @@ export default function App(){
                     integrated: 0,
                     completed: 0,
                     logo : camusat
-                },
-                {
-                    id: 10,
-                    name: "Sites",
-                    issued: 223,
-                    commissioned: 0,
-                    integrated: 0,
-                    completed: 0,
-                    image: ""
                 }
       ];
       
@@ -135,6 +127,10 @@ export default function App(){
 
             <div className="partners-progress">
                 {partners}
+            </div>
+
+            <div>
+                <Summary />
             </div>
 
             <div> 
