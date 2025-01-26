@@ -3,8 +3,8 @@ export default function Summary(){
     return(
         <>
             <div className="summary">
-                <table border={1}>
-                    <caption>Summary</caption>
+                <table className="summary-table" border={1}>
+                    <caption className="table-caption">Summary</caption>
                     <thead>
                         <tr>
                             <th>Issued</th>
