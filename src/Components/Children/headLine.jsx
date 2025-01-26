@@ -7,7 +7,7 @@ export default function HeadLine (){
             <div className="logo">
                 <img src={logo} alt="saf" />
             </div>
-            <h5>Partners Progress</h5>
+            <h5>Rectifier installation Progress</h5>
         </div> 
     )
 }
