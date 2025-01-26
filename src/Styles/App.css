@@ -103,10 +103,7 @@ img{
     justify-content: center;
     /* border: solid red; */
     margin-top: 10px;
-}
-
-.summary {
-    margin: 20px;
+    margin: 1% 5%;
 }
 
 .summary-table {
@@ -121,15 +118,17 @@ img{
     font-size: small;
     text-align: center;
     padding-bottom: 10px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #333;
+    margin-top: 5px;
+    text-decoration: underline;
 }
 
 .summary-table th,
 .summary-table td {
-    padding: 5px 5px;
+    padding: 1px 1px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid yellowgreen;
 }
 
 .summary-table th {
@@ -137,7 +136,7 @@ img{
     color: black;
     /* font-weight: bold; */
     font-size: small;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 .summary-table tbody td {
