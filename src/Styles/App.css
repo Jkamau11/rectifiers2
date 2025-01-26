@@ -107,19 +107,19 @@ img{
 
 .summary {
     margin: 20px;
-    font-family: Arial, sans-serif;
 }
 
 .summary-table {
     width: 100%;
     border-collapse: collapse;
     background-color: #f9f9f9;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
 }
 
 .table-caption {
-    font-size: 1.5rem;
-    text-align: left;
+    font-size: small;
+    text-align: center;
     padding-bottom: 10px;
     font-weight: bold;
     color: #333;
@@ -127,33 +127,32 @@ img{
 
 .summary-table th,
 .summary-table td {
-    padding: 12px 15px;
+    padding: 5px 5px;
     text-align: center;
     border: 1px solid #ddd;
 }
 
 .summary-table th {
-    background-color: #007bff;
-    color: white;
-    font-weight: bold;
+    background-color: bisque;
+    color: black;
+    /* font-weight: bold; */
+    font-size: small;
+    border-radius: 6px;
 }
 
-.summary-table td {
+.summary-table tbody td {
     background-color: #fff;
-    font-size: 1rem;
+    font-size: small;
 }
 
-.summary-table tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
 
-.summary-table tr:hover {
-    background-color: #f1f1f1;
+.summary-table tbody tr :hover {
+    background-color: #fce4e4;
 }
 
 .summary-table td:last-child {
     font-weight: bold;
-    color: #d9534f;
+    color: #54ee5c;
 }
 
 .footer-content{
