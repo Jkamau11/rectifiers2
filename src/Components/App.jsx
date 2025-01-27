@@ -121,21 +121,26 @@ export default function App(){
 
     return(
         <React.Fragment>
-            <div>
-                < HeadLine /> 
+            <div className="application">
+
+                <div>
+                    < HeadLine /> 
+                </div>
+
+                <div className="partners-progress">
+                    {partners}
+                </div>
+
+                <div>
+                    <Summary />
+                </div>
+
+                <div> 
+                    <Footer />
+                </div>
+
             </div>
 
-            <div className="partners-progress">
-                {partners}
-            </div>
-
-            <div>
-                <Summary />
-            </div>
-
-            <div> 
-                <Footer />
-            </div>
         </React.Fragment>
     )
 }
