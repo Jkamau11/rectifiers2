@@ -67,8 +67,8 @@ export default function App(){
                     id: 6,
                     name: "Philafe",
                     issued: 41,
-                    commissioned: 6,
-                    integrated: 6,
+                    commissioned: 8,
+                    integrated: 8,
                     completed: 0,
                     logo: philfe
                 },
