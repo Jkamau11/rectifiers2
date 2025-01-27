@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 export default function Card({partner}){
 
-    const pending = partner.issued - partner.integrated;
+    const pending = partner.commissioned - partner.integrated;
     const completion = ((partner.integrated) / partner.issued * 100).toFixed(0);
 
 

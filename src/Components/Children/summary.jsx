@@ -8,7 +8,7 @@ export default function Summary(){
         completed : 0,
     }
 
-    const pending = summary.issued - summary.integrated;
+    const pending = summary.commissioned - summary.integrated;
     const endToEnd = ((summary.integrated/summary.issued)*100).toFixed(1);
 
     return(
