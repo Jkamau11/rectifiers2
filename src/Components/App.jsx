@@ -49,8 +49,8 @@ export default function App(){
                     id: 4,
                     name: "NextGen",
                     issued: 39,
-                    commissioned: 0,
-                    integrated: 0,
+                    commissioned: 4,
+                    integrated: 4,
                     completed: 0,
                     logo: nextgen
                 },
@@ -67,8 +67,8 @@ export default function App(){
                     id: 6,
                     name: "Philafe",
                     issued: 41,
-                    commissioned: 0,
-                    integrated: 0,
+                    commissioned: 6,
+                    integrated: 6,
                     completed: 0,
                     logo: philfe
                 },
@@ -85,8 +85,8 @@ export default function App(){
                     id: 8,
                     name: "Block-chain",
                     issued: 35,
-                    commissioned: 0,
-                    integrated: 0,
+                    commissioned: 1,
+                    integrated: 1,
                     completed: 0,
                     logo: blockhain
                 },

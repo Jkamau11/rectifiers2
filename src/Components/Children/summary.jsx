@@ -1,5 +1,16 @@
 export default function Summary(){
 
+
+    const summary = {
+        issued : 223,
+        commissioned: 11,
+        integrated : 11,
+        completed : 0,
+    }
+
+    const pending = summary.issued - summary.integrated;
+    const endToEnd = ((summary.integrated/summary.issued)*100).toFixed(1);
+
     return(
         <>
             <div className="summary">
@@ -10,19 +21,17 @@ export default function Summary(){
                             <th>Issued</th>
                             <th>Commissioned</th>
                             <th>Integrated</th>
-                            <th>Completed</th>
-                            <th>Pending</th>
+                            <th>Pending Integration</th>
                             <th>End-End Completion</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>117</td>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>117</td>
-                            <td>0%</td>
+                            <td>{summary.issued}</td>
+                            <td>{summary.commissioned}</td>
+                            <td>{summary.integrated}</td>
+                            <td>{pending}</td>
+                            <td>{endToEnd}%</td>
                         </tr>
                     </tbody>
                 </table>
