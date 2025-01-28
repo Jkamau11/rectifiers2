@@ -67,8 +67,8 @@ export default function App(){
                     id: 6,
                     name: "Philafe",
                     issued: 41,
-                    commissioned: 8,
-                    integrated: 8,
+                    commissioned: 10,
+                    integrated: 10,
                     completed: 0,
                     logo: philfe
                 },
@@ -85,8 +85,8 @@ export default function App(){
                     id: 8,
                     name: "Block-chain",
                     issued: 35,
-                    commissioned: 1,
-                    integrated: 1,
+                    commissioned: 5,
+                    integrated: 5,
                     completed: 0,
                     logo: blockhain
                 },
