@@ -58,8 +58,8 @@ export default function App(){
                     id: 5,
                     name: "Pavicon",
                     issued: 6,
-                    commissioned: 0,
-                    integrated: 0,
+                    commissioned: 1,
+                    integrated: 1,
                     completed: 0,
                     logo: pavicon
                 },
@@ -76,7 +76,7 @@ export default function App(){
                     id: 7,
                     name: "Power group",
                     issued: 40,
-                    commissioned: 0,
+                    commissioned: 2,
                     integrated: 0,
                     completed: 0,
                     logo: powergroup
