@@ -3,8 +3,8 @@ export default function Summary(){
 
     const summary = {
         issued : 223,
-        commissioned: 22,
-        integrated : 22,
+        commissioned: 25,
+        integrated : 23,
         completed : 0,
     }
 
