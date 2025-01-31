@@ -5,7 +5,7 @@ export default function Card({partner}){
     const completion = ((partner.integrated) / partner.issued * 100).toFixed(0);
 
 
-    console.log(partner);
+    // console.log(partner);
 
     return (
         <>

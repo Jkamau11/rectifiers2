@@ -1,15 +1,12 @@
-export default function Summary(){
+/* eslint-disable react/prop-types */
+export default function Summary({summaryData}){
 
+    // console.log(summaryData.totalIssued);
 
-    const summary = {
-        issued : 223,
-        commissioned: 25,
-        integrated : 23,
-        completed : 0,
-    }
-
-    const pending = summary.commissioned - summary.integrated;
-    const endToEnd = ((summary.integrated/summary.issued)*100).toFixed(1);
+    const pending = summaryData.totalCommissioned - summaryData.totalIntegrated;
+    // console.log(pending);
+    const endToEnd = ((summaryData.totalIntegrated/summaryData.totalIssued)*100).toFixed(1);
+    // console.log(endToEnd);
 
     return(
         <>
@@ -27,9 +24,9 @@ export default function Summary(){
                     </thead>
                     <tbody>
                         <tr>
-                            <td>{summary.issued}</td>
-                            <td>{summary.commissioned}</td>
-                            <td>{summary.integrated}</td>
+                            <td>{summaryData.totalIssued}</td>
+                            <td>{summaryData.totalCommissioned}</td>
+                            <td>{summaryData.totalIntegrated}</td>
                             <td>{pending}</td>
                             <td>{endToEnd}%</td>
                         </tr>

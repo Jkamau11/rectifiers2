@@ -49,8 +49,8 @@ export default function App(){
                     id: 4,
                     name: "NextGen",
                     issued: 39,
-                    commissioned: 4,
-                    integrated: 4,
+                    commissioned: 8,
+                    integrated: 8,
                     completed: 0,
                     logo: nextgen
                 },
@@ -58,8 +58,8 @@ export default function App(){
                     id: 5,
                     name: "Pavicon",
                     issued: 6,
-                    commissioned: 1,
-                    integrated: 1,
+                    commissioned: 2,
+                    integrated: 2,
                     completed: 0,
                     logo: pavicon
                 },
@@ -85,8 +85,8 @@ export default function App(){
                     id: 8,
                     name: "Block-chain",
                     issued: 35,
-                    commissioned: 5,
-                    integrated: 5,
+                    commissioned: 6,
+                    integrated: 6,
                     completed: 0,
                     logo: blockhain
                 },
@@ -101,15 +101,18 @@ export default function App(){
                 }
       ];
       
-      
+      const summaryData = {
+        totalIssued : data.reduce((acc, curr) => acc + curr.issued, 0),
+        totalCommissioned : data.reduce((acc, curr) => acc + curr.commissioned, 0),
+        totalIntegrated : data.reduce((acc, curr) => acc + curr.integrated, 0),
+      }
 
-    // const partners = {
-    //     name : "Block-Chain",
-    //     issued : 40,
-    //     commisioned : 30,
-    //     integrated : 20,
-    //     completed : "20"
-    // }
+    //   console.log(summaryData.totalIssued)
+      
+    //   console.log(summaryData.totalCommissioned)
+      
+    //   console.log(summaryData.totalIntegrated)
+
 
     const partners = data.map((partner)=>{
 
@@ -132,7 +135,7 @@ export default function App(){
                 </div>
 
                 <div>
-                    <Summary />
+                    <Summary summaryData={summaryData} />
                 </div>
 
                 <div> 
