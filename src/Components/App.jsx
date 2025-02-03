@@ -14,6 +14,7 @@ import powergroup from '/images/powergroup.png';
 import blockhain from '/images/blockhain.png';
 import camusat from '/images/camusat.png';
 import Summary from './Children/summary';
+import WeekDisplay from './Children/WeekDisplay';
 
 export default function App(){
 
@@ -76,8 +77,8 @@ export default function App(){
                     id: 7,
                     name: "Power group",
                     issued: 40,
-                    commissioned: 2,
-                    integrated: 0,
+                    commissioned: 3,
+                    integrated: 3,
                     completed: 0,
                     logo: powergroup
                 },
@@ -136,6 +137,11 @@ export default function App(){
 
                 <div>
                     <Summary summaryData={summaryData} />
+                </div>
+
+                <div>
+                    <WeekDisplay />
+                    
                 </div>
 
                 <div> 
