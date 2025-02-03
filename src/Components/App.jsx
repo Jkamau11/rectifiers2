@@ -49,8 +49,8 @@ export default function App(){
                     id: 4,
                     name: "NextGen",
                     issued: 39,
-                    commissioned: 0,
-                    integrated: 0,
+                    commissioned: 8,
+                    integrated: 8,
                     completed: 0,
                     logo: nextgen
                 },
@@ -58,8 +58,8 @@ export default function App(){
                     id: 5,
                     name: "Pavicon",
                     issued: 6,
-                    commissioned: 0,
-                    integrated: 0,
+                    commissioned: 2,
+                    integrated: 2,
                     completed: 0,
                     logo: pavicon
                 },
@@ -67,8 +67,8 @@ export default function App(){
                     id: 6,
                     name: "Philafe",
                     issued: 41,
-                    commissioned: 0,
-                    integrated: 0,
+                    commissioned: 13,
+                    integrated: 13,
                     completed: 0,
                     logo: philfe
                 },
@@ -76,7 +76,7 @@ export default function App(){
                     id: 7,
                     name: "Power group",
                     issued: 40,
-                    commissioned: 0,
+                    commissioned: 2,
                     integrated: 0,
                     completed: 0,
                     logo: powergroup
@@ -85,8 +85,8 @@ export default function App(){
                     id: 8,
                     name: "Block-chain",
                     issued: 35,
-                    commissioned: 0,
-                    integrated: 0,
+                    commissioned: 6,
+                    integrated: 6,
                     completed: 0,
                     logo: blockhain
                 },
@@ -101,15 +101,18 @@ export default function App(){
                 }
       ];
       
-      
+      const summaryData = {
+        totalIssued : data.reduce((acc, curr) => acc + curr.issued, 0),
+        totalCommissioned : data.reduce((acc, curr) => acc + curr.commissioned, 0),
+        totalIntegrated : data.reduce((acc, curr) => acc + curr.integrated, 0),
+      }
 
-    // const partners = {
-    //     name : "Block-Chain",
-    //     issued : 40,
-    //     commisioned : 30,
-    //     integrated : 20,
-    //     completed : "20"
-    // }
+    //   console.log(summaryData.totalIssued)
+      
+    //   console.log(summaryData.totalCommissioned)
+      
+    //   console.log(summaryData.totalIntegrated)
+
 
     const partners = data.map((partner)=>{
 
@@ -121,21 +124,26 @@ export default function App(){
 
     return(
         <React.Fragment>
-            <div>
-                < HeadLine /> 
+            <div className="application">
+
+                <div>
+                    < HeadLine /> 
+                </div>
+
+                <div className="partners-progress">
+                    {partners}
+                </div>
+
+                <div>
+                    <Summary summaryData={summaryData} />
+                </div>
+
+                <div> 
+                    <Footer />
+                </div>
+
             </div>
 
-            <div className="partners-progress">
-                {partners}
-            </div>
-
-            <div>
-                <Summary />
-            </div>
-
-            <div> 
-                <Footer />
-            </div>
         </React.Fragment>
     )
 }

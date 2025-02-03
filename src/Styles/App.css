@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+
+/* Base styling */
+  @media (max-width: 768px) {
+    .application {
+      grid-template-columns: 1fr 1fr; /* Two columns */
+    }
+  }
+  
 .headline{
     display: flex;
     flex-direction: row;
