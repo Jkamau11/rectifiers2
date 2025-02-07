@@ -23,7 +23,7 @@ export default function App(){
                     id: 1,
                     name: "Broad-com",
                     issued: 7,
-                    commissioned: 0,
+                    commissioned: 5,
                     integrated: 0,
                     completed: 0,
                     logo: broadcom
