@@ -60,7 +60,7 @@ export default function App(){
                     name: "Pavicon",
                     issued: 6,
                     commissioned: 4,
-                    integrated: 2,
+                    integrated: 4,
                     completed: 0,
                     logo: pavicon
                 },
