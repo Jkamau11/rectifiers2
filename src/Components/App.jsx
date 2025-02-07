@@ -50,7 +50,7 @@ export default function App(){
                     id: 4,
                     name: "NextGen",
                     issued: 39,
-                    commissioned: 8,
+                    commissioned: 14,
                     integrated: 8,
                     completed: 0,
                     logo: nextgen
@@ -59,7 +59,7 @@ export default function App(){
                     id: 5,
                     name: "Pavicon",
                     issued: 6,
-                    commissioned: 2,
+                    commissioned: 4,
                     integrated: 2,
                     completed: 0,
                     logo: pavicon
@@ -68,7 +68,7 @@ export default function App(){
                     id: 6,
                     name: "Philafe",
                     issued: 41,
-                    commissioned: 13,
+                    commissioned: 30,
                     integrated: 13,
                     completed: 0,
                     logo: philfe
@@ -77,7 +77,7 @@ export default function App(){
                     id: 7,
                     name: "Power group",
                     issued: 40,
-                    commissioned: 3,
+                    commissioned: 13,
                     integrated: 3,
                     completed: 0,
                     logo: powergroup
@@ -86,7 +86,7 @@ export default function App(){
                     id: 8,
                     name: "Block-chain",
                     issued: 35,
-                    commissioned: 6,
+                    commissioned: 17,
                     integrated: 6,
                     completed: 0,
                     logo: blockhain
