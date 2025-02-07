@@ -139,10 +139,10 @@ export default function App(){
                     <Summary summaryData={summaryData} />
                 </div>
 
-                <div>
+                {/* <div>
                     <WeekDisplay />
                     
-                </div>
+                </div> */}
 
                 <div> 
                     <Footer />
