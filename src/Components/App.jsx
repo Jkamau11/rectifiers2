@@ -30,7 +30,7 @@ export default function App(){
                 },
                 {
                     id: 2,
-                    name: "Delta",
+                    name: "Tetranet",
                     issued: 18,
                     commissioned: 0,
                     integrated: 0,
@@ -50,8 +50,8 @@ export default function App(){
                     id: 4,
                     name: "NextGen",
                     issued: 39,
-                    commissioned: 21,
-                    integrated: 16,
+                    commissioned: 20,
+                    integrated: 9,
                     completed: 0,
                     logo: nextgen
                 },
