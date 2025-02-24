@@ -50,8 +50,8 @@ export default function App(){
                     id: 4,
                     name: "NextGen",
                     issued: 39,
-                    commissioned: 20,
-                    integrated: 9,
+                    commissioned: 21,
+                    integrated: 16,
                     completed: 0,
                     logo: nextgen
                 },
