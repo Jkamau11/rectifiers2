@@ -42,7 +42,7 @@ export default function App(){
                     name: "Egypro",
                     issued: 6,
                     commissioned: 6,
-                    integrated: 0,
+                    integrated: 1,
                     completed: 0,
                     logo: egypro
                 },
