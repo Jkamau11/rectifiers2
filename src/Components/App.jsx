@@ -51,7 +51,7 @@ export default function App(){
                     name: "NextGen",
                     issued: 39,
                     commissioned: 21,
-                    integrated: 16,
+                    integrated: 17,
                     completed: 0,
                     logo: nextgen
                 },
@@ -78,7 +78,7 @@ export default function App(){
                     name: "Power group",
                     issued: 40,
                     commissioned: 37,
-                    integrated: 5,
+                    integrated: 25,
                     completed: 0,
                     logo: powergroup
                 },
