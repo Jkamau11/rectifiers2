@@ -42,7 +42,7 @@ export default function App(){
                     name: "Egypro",
                     issued: 6,
                     commissioned: 6,
-                    integrated: 1,
+                    integrated: 2,
                     completed: 0,
                     logo: egypro
                 },
@@ -50,8 +50,8 @@ export default function App(){
                     id: 4,
                     name: "NextGen",
                     issued: 39,
-                    commissioned: 21,
-                    integrated: 17,
+                    commissioned: 24,
+                    integrated: 22,
                     completed: 0,
                     logo: nextgen
                 },
@@ -68,8 +68,8 @@ export default function App(){
                     id: 6,
                     name: "Philafe",
                     issued: 41,
-                    commissioned: 38,
-                    integrated: 24,
+                    commissioned: 39,
+                    integrated: 34,
                     completed: 0,
                     logo: philfe
                 },
@@ -78,7 +78,7 @@ export default function App(){
                     name: "Power group",
                     issued: 40,
                     commissioned: 37,
-                    integrated: 25,
+                    integrated: 34,
                     completed: 0,
                     logo: powergroup
                 },
@@ -86,8 +86,8 @@ export default function App(){
                     id: 8,
                     name: "Block-chain",
                     issued: 35,
-                    commissioned: 20,
-                    integrated: 10,
+                    commissioned: 24,
+                    integrated: 13,
                     completed: 0,
                     logo: blockhain
                 },
@@ -96,7 +96,7 @@ export default function App(){
                     name: "Camusat",
                     issued: 31,
                     commissioned: 11,
-                    integrated: 0,
+                    integrated: 1,
                     completed: 0,
                     logo : camusat
                 }
