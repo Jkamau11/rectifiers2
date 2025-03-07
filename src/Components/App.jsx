@@ -96,7 +96,7 @@ export default function App(){
                     name: "Camusat",
                     issued: 31,
                     commissioned: 14,
-                    integrated: 19,
+                    integrated: 9,
                     completed: 0,
                     logo : camusat
                 }
