@@ -78,7 +78,7 @@ export default function App(){
                     name: "Power group",
                     issued: 40,
                     commissioned: 37,
-                    integrated: 34,
+                    integrated: 35,
                     completed: 0,
                     logo: powergroup
                 },
