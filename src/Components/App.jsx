@@ -42,7 +42,7 @@ export default function App(){
                     name: "Egypro",
                     issued: 6,
                     commissioned: 6,
-                    integrated: 2,
+                    integrated: 5,
                     completed: 0,
                     logo: egypro
                 },
@@ -50,8 +50,8 @@ export default function App(){
                     id: 4,
                     name: "NextGen",
                     issued: 39,
-                    commissioned: 24,
-                    integrated: 22,
+                    commissioned: 25,
+                    integrated: 24,
                     completed: 0,
                     logo: nextgen
                 },
@@ -69,7 +69,7 @@ export default function App(){
                     name: "Philafe",
                     issued: 41,
                     commissioned: 39,
-                    integrated: 34,
+                    integrated: 37,
                     completed: 0,
                     logo: philfe
                 },
@@ -86,8 +86,8 @@ export default function App(){
                     id: 8,
                     name: "Block-chain",
                     issued: 35,
-                    commissioned: 24,
-                    integrated: 13,
+                    commissioned: 25,
+                    integrated: 16,
                     completed: 0,
                     logo: blockhain
                 },
@@ -95,8 +95,8 @@ export default function App(){
                     id: 9,
                     name: "Camusat",
                     issued: 31,
-                    commissioned: 13,
-                    integrated: 1,
+                    commissioned: 14,
+                    integrated: 19,
                     completed: 0,
                     logo : camusat
                 }
