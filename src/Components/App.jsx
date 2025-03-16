@@ -69,7 +69,7 @@ export default function App(){
                     name: "Philafe",
                     issued: 41,
                     commissioned: 39,
-                    integrated: 37,
+                    integrated: 38,
                     completed: 0,
                     logo: philfe
                 },
@@ -87,7 +87,7 @@ export default function App(){
                     name: "Block-chain",
                     issued: 35,
                     commissioned: 25,
-                    integrated: 16,
+                    integrated: 18,
                     completed: 0,
                     logo: blockhain
                 },
@@ -96,7 +96,7 @@ export default function App(){
                     name: "Camusat",
                     issued: 31,
                     commissioned: 14,
-                    integrated: 9,
+                    integrated: 10,
                     completed: 0,
                     logo : camusat
                 }
