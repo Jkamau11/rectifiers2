@@ -23,7 +23,7 @@ export default function App(){
                     id: 1,
                     name: "Broad-com",
                     issued: 7,
-                    commissioned: 6,
+                    commissioned: 7,
                     integrated: 5,
                     completed: 0,
                     logo: broadcom
@@ -32,8 +32,8 @@ export default function App(){
                     id: 2,
                     name: "Tetranet",
                     issued: 18,
-                    commissioned: 0,
-                    integrated: 0,
+                    commissioned: 10,
+                    integrated: 6,
                     completed: 0,
                     logo: delta
                 },
@@ -50,8 +50,8 @@ export default function App(){
                     id: 4,
                     name: "NextGen",
                     issued: 39,
-                    commissioned: 25,
-                    integrated: 24,
+                    commissioned: 29,
+                    integrated: 28,
                     completed: 0,
                     logo: nextgen
                 },
@@ -68,7 +68,7 @@ export default function App(){
                     id: 6,
                     name: "Philafe",
                     issued: 41,
-                    commissioned: 39,
+                    commissioned: 40,
                     integrated: 38,
                     completed: 0,
                     logo: philfe
@@ -77,8 +77,8 @@ export default function App(){
                     id: 7,
                     name: "Power group",
                     issued: 40,
-                    commissioned: 37,
-                    integrated: 35,
+                    commissioned: 40,
+                    integrated: 37,
                     completed: 0,
                     logo: powergroup
                 },
@@ -86,7 +86,7 @@ export default function App(){
                     id: 8,
                     name: "Block-chain",
                     issued: 35,
-                    commissioned: 25,
+                    commissioned: 31,
                     integrated: 18,
                     completed: 0,
                     logo: blockhain
@@ -95,8 +95,8 @@ export default function App(){
                     id: 9,
                     name: "Camusat",
                     issued: 31,
-                    commissioned: 14,
-                    integrated: 10,
+                    commissioned: 22,
+                    integrated: 14,
                     completed: 0,
                     logo : camusat
                 }
