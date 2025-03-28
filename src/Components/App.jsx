@@ -5,7 +5,7 @@ import HeadLine from './Children/headLine';
 import Footer from './Children/Footer';
 
 import broadcom from '/images/broadband.png';
-import delta from '/images/delta.png';
+import Tetranet from '/images/Tetranet.png';
 import egypro from '/images/egypro.png';
 import nextgen from '/images/nextgen.png';
 import pavicon from '/images/pavicon.png';
@@ -33,9 +33,9 @@ export default function App(){
                     name: "Tetranet",
                     issued: 18,
                     commissioned: 10,
-                    integrated: 6,
+                    integrated: 10,
                     completed: 0,
-                    logo: delta
+                    logo: Tetranet
                 },
                 {
                     id: 3,
@@ -96,7 +96,7 @@ export default function App(){
                     name: "Camusat",
                     issued: 31,
                     commissioned: 22,
-                    integrated: 14,
+                    integrated: 15,
                     completed: 0,
                     logo : camusat
                 }

@@ -12,6 +12,15 @@
       grid-template-columns: 1fr 1fr; /* Two columns */
     }
   }
+
+  /* .application{
+    background: transparent url(/images/revised.jpg);
+        background-image: url('/images/revised.jpg');
+        background-size: 100% 100%; ;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin: 20px;
+  } */
   
 .headline{
     display: flex;
@@ -50,6 +59,7 @@ img{
     margin: 0px;
     box-shadow: 2px 2px 2px grey;
     border-radius: 5px;
+    background-color: rgba(238, 226, 212, 0.3);
 }
 
 .card{
@@ -168,3 +178,4 @@ img{
     justify-content: center;
     margin-top: 20px;
 }
+
