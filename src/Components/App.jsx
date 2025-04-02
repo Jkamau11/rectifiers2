@@ -87,7 +87,7 @@ export default function App(){
                     name: "Block-chain",
                     issued: 35,
                     commissioned: 31,
-                    integrated: 18,
+                    integrated: 20,
                     completed: 0,
                     logo: blockhain
                 },
@@ -96,7 +96,7 @@ export default function App(){
                     name: "Camusat",
                     issued: 31,
                     commissioned: 22,
-                    integrated: 15,
+                    integrated: 18,
                     completed: 0,
                     logo : camusat
                 }
