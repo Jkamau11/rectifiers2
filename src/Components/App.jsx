@@ -32,7 +32,7 @@ export default function App(){
                     id: 2,
                     name: "Tetranet",
                     issued: 18,
-                    commissioned: 10,
+                    commissioned: 14,
                     integrated: 10,
                     completed: 0,
                     logo: Tetranet
@@ -50,7 +50,7 @@ export default function App(){
                     id: 4,
                     name: "NextGen",
                     issued: 39,
-                    commissioned: 29,
+                    commissioned: 34,
                     integrated: 28,
                     completed: 0,
                     logo: nextgen
@@ -68,7 +68,7 @@ export default function App(){
                     id: 6,
                     name: "Philafe",
                     issued: 41,
-                    commissioned: 40,
+                    commissioned: 41,
                     integrated: 38,
                     completed: 0,
                     logo: philfe
@@ -86,7 +86,7 @@ export default function App(){
                     id: 8,
                     name: "Block-chain",
                     issued: 35,
-                    commissioned: 31,
+                    commissioned: 33,
                     integrated: 25,
                     completed: 0,
                     logo: blockhain
@@ -95,7 +95,7 @@ export default function App(){
                     id: 9,
                     name: "Camusat",
                     issued: 31,
-                    commissioned: 22,
+                    commissioned: 26,
                     integrated: 20,
                     completed: 0,
                     logo : camusat
