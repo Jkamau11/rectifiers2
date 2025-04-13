@@ -33,7 +33,7 @@ export default function App(){
                     name: "Tetranet",
                     issued: 18,
                     commissioned: 14,
-                    integrated: 10,
+                    integrated: 12,
                     completed: 0,
                     logo: Tetranet
                 },
@@ -51,7 +51,7 @@ export default function App(){
                     name: "NextGen",
                     issued: 39,
                     commissioned: 34,
-                    integrated: 28,
+                    integrated: 33,
                     completed: 0,
                     logo: nextgen
                 },
@@ -96,7 +96,7 @@ export default function App(){
                     name: "Camusat",
                     issued: 31,
                     commissioned: 26,
-                    integrated: 20,
+                    integrated: 22,
                     completed: 0,
                     logo : camusat
                 }
